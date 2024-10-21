@@ -4,23 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./estilos.css" />
+        <link rel="stylesheet" type="text/css" href="./reset.css" />
         <title>Document</title>
     </head>
     <body>
 
         <header>
 
-            <h1 class="titulo" id="principal">Este es el titulo principal de mi página web</h1>
+            <div id="encabezado">
 
-            <span>HOME</span>
-            <span>NOTICIA</span>
-            <span>CLIMA</span>
+                <h1 class="titulo" id="principal">Este es el titulo principal de mi página web</h1>
+
+                <span>HOME</span>
+                <span>NOTICIA</span>
+                <span>CLIMA</span>
+
+            </div>
 
         </header>
 
         <main>
 
-            <img src="./img/developer.jpg" class="logo"/>
+            <div class="imagen">
+
+                <img src="./img/developer.jpg" class="logo"/>
+
+            </div>
 
             <section>
 
@@ -39,6 +48,24 @@
                 </article>
                 
                 <hr />
+
+                <article>
+
+                    <div id="container">
+
+                        <div class="categoria">
+                            <h4>ROBOT</h4>
+                            <img src="./img/robots.JPG"/>
+                        </div>
+
+                        <div class="categoria">
+                            <h4>ROS</h4>
+                            <img src="./img/ros2.png"/>
+                        </div>
+                        
+                    </div>
+
+                </article>
 
                 <article>
          
@@ -71,8 +98,10 @@
 
                 </article>
 
-                <div>
+                <div class="imagen">
+
                     <img src="./img/cerebro.jpg" class="logo"/>
+                    
                 </div>
 
             </section>

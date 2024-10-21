@@ -3,7 +3,7 @@ body{
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: 2em;
     color:blue;
 }
 
@@ -11,8 +11,46 @@ body{
     width: 200px;
 }
 
+.imagen{
+    border: 4px solid coral;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.imagen:hover{
+    background-color:aquamarine;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
 #principal{
-    font-size: 40px;
+    font-size: 4em;
     color: brown;
 }
 
+#encabezado{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 2em;
+}
+
+#container{
+    background-color:blueviolet;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid orange;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}

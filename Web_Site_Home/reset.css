@@ -1,0 +1,45 @@
+/* reset.css */
+/* Elimina el margen y el padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Asegura que el 100% del ancho y altura se use */
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: sans-serif;
+  }
+  
+  /* Quita decoraciones de enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Establece que las listas no tengan estilo predeterminado */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Quita el borde de los elementos de formulario */
+  input, button, textarea, select {
+    border: none;
+    background: none;
+    font: inherit;
+  }
+  
+  /* Quita los estilos de las tablas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Asegura que las imágenes se comporten correctamente */
+  img, picture {
+    max-width: 100%;
+    display: block;
+  }
